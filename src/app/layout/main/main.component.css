@@ -1,0 +1,12 @@
+.green{
+  width: 20px;
+  height: 20px;
+  background-color: green;
+}
+.row{
+  display: flex;
+  align-items: center;
+}
+p{
+  margin: 0;
+}
