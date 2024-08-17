@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Project-Angular-5": {
+    "project-angular-5": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Project-Angular-5:build:production"
+              "buildTarget": "project-angular-5:build:production"
             },
             "development": {
-              "buildTarget": "Project-Angular-5:build:development"
+              "buildTarget": "project-angular-5:build:development"
             }
           },
           "defaultConfiguration": "development"
