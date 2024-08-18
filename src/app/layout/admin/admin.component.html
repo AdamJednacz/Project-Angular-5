@@ -1,7 +1,8 @@
-<form>
+<form (ngSubmit)="submitForm()">
   <h1>Panel do zmiany kontentu</h1>
-  <input type="date">
-  <input type="text" placeholder="Imię">
-  <input type="text" placeholder="Nazwisko">
-  <input type="color">
+  <input type="date" [(ngModel)]="formData.date" name="date">
+  <input type="text" placeholder="Imię" [(ngModel)]="formData.firstName" name="firstName">
+  <input type="text" placeholder="Nazwisko" [(ngModel)]="formData.lastName" name="lastName">
+  <input type="color" [(ngModel)]="formData.color" name="color">
+  <button type="submit">Wyślij</button>
 </form>
